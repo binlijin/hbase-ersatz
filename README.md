@@ -26,7 +26,7 @@ This service runs the HBASE RPC server wrapped in a Jetty server. This service i
 
 ```bash
 hbase> create 'test', {NAME => 'd', REPLICATION_SCOPE => '1'}
-hbase> add_peer '1', "zk:2181:/hbase-slave/events"'
+hbase> add_peer '1', "zk:2181:/hbase-slave/events"
 hbase> put 'test', 'r1', 'd', 'value'
 ```
 
