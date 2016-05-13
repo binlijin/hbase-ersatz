@@ -7,7 +7,7 @@ This service runs the HBASE RPC server wrapped in a Jetty server. This service i
 
 ## Show me a high level view of how it works
 
- 
+ ![Overall Picture](https://github.com/mravi/hbase-ersatz/blob/master/Ersatz%20Service%20High%20Level.png)
 
 
 ## Packaging
